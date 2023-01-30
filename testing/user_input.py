@@ -1,6 +1,7 @@
 import sys
 import bosdyn.client
 
+
 sdk = bosdyn.client.create_standard_sdk('understanding-spot')
 robot = sdk.create_robot('192.168.80.3')
 robot.authenticate('user', 'hhe262iz9zez')
