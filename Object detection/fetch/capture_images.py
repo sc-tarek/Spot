@@ -1,5 +1,6 @@
 # Live Image Capture Script
 
+# Set up imports for images and the Spot API:
 import argparse
 import sys
 import os
