@@ -1,0 +1,26 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "object",
+      "points": [
+        [
+          40.86206896551721,
+          329.48275862068965
+        ],
+        [
+          49.48275862068962,
+          349.3103448275862
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "circle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "..\\images\\frontleft_fisheye_image_0008.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 480
+}
