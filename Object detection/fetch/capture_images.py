@@ -65,7 +65,7 @@ def main(argv):
         print('Wrote: ' + image_saved_path)
 
         # Wait for some time so we can drive the robot to a new position.
-        time.sleep(0.7)
+        time.sleep(3)
 
 
     return True
