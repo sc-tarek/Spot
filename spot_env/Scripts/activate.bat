@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=C:\Users\QM962HE\OneDrive - EY\Tarek\Internal Projects\Boston Dynamics\Spot\Testing\spot_env"
+@set "VIRTUAL_ENV=C:\Users\AD655YE\OneDrive - EY\Desktop\Spot\spot_env"
 
 @if defined _OLD_VIRTUAL_PROMPT (
     @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
