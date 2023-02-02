@@ -1,0 +1,25 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>frontright_fisheye_image_0018.jpg</filename>
+	<path>/my-project-name/frontright_fisheye_image_0018.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>dogtoy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>295</xmin>
+			<ymin>454</ymin>
+			<xmax>349</xmax>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>
