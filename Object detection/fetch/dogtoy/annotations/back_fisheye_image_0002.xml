@@ -1,7 +1,7 @@
 <annotation>
 	<folder>my-project-name</folder>
-	<filename>back_fisheye_image_0000.jpg</filename>
-	<path>/my-project-name/back_fisheye_image_0000.jpg</path>
+	<filename>back_fisheye_image_0002.jpg</filename>
+	<path>/my-project-name/back_fisheye_image_0002.jpg</path>
 	<source>
 		<database>Unspecified</database>
 	</source>
@@ -16,10 +16,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>381</xmin>
-			<ymin>265</ymin>
-			<xmax>409</xmax>
-			<ymax>290</ymax>
+			<xmin>319</xmin>
+			<ymin>264</ymin>
+			<xmax>345</xmax>
+			<ymax>291</ymax>
 		</bndbox>
 	</object>
 </annotation>
