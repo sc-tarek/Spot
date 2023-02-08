@@ -73,16 +73,16 @@ while True:
     elif user_input.upper() == 'L':
         blocking_sit(robot_command_client, timeout_sec=10)
     elif user_input.upper() == 'A':
-        relative_move(0, 1, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(0, 0.5, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     elif user_input.upper() == 'D':
-        relative_move(0, -1, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(0, -0.5, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     elif user_input.upper() == 'S':
-        relative_move(-1, 0, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(-0.5, 0, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     elif user_input.upper() == 'W':
-        relative_move(1, 0, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(0.5, 0, 0, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     elif user_input.upper() == 'U':
-        relative_move(0, 0, 0.5, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(0, 0, 0.3, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     elif user_input.upper() == 'I':
-        relative_move(0, 0, -0.5, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
+        relative_move(0, 0, -0.3, ODOM_FRAME_NAME, robot_command_client, robot_state_client, stairs=False)
     else:
         print("No input provided.")
